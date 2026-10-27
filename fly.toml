@@ -1,0 +1,8 @@
+app = "telegram-telethon-bot"
+primary_region = "sin"
+
+[build]
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "512mb"

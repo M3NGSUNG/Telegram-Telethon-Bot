@@ -1,0 +1,6 @@
+.env
+data.json
+userbot_session*
+venv/
+__pycache__/
+fly_bot.zip
