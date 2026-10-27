@@ -1,8 +1,21 @@
-app = "telegram-telethon-bot"
-primary_region = "sin"
+# fly.toml app configuration file generated for telegram-telethon-bot-qlptua on 2026-10-27T02:29:27Z
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'telegram-telethon-bot-qlptua'
+primary_region = 'ams'
 
 [build]
 
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
 [[vm]]
-  size = "shared-cpu-1x"
-  memory = "512mb"
+  size = 'shared-cpu-1x'
+  memory = '512mb'
