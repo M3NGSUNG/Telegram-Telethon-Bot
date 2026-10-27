@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for telegram-telethon-bot-qlptua on 2026-10-27T02:29:27Z
+# fly.toml app configuration file generated for telegram-telethon-bot on 2026-10-27T03:41:42Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'telegram-telethon-bot-qlptua'
+app = 'telegram-telethon-bot'
 primary_region = 'ams'
 
 [build]
